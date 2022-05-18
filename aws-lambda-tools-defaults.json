@@ -12,7 +12,7 @@
     "framework"     : "netcoreapp3.1",
     "function-runtime" : "dotnetcore3.1",
     "function-memory-size" : 256,
-    "function-timeout"     : 30,
+    "function-timeout"     : 900,
     "function-handler"     : "RunCrawler::RunCrawler.Function::FunctionHandler",
     "function-name"        : "RunCrawler",
     "package-type"         : "Zip",
@@ -20,5 +20,6 @@
     "function-architecture" : "x86_64",
     "tracing-mode"          : "PassThrough",
     "environment-variables" : "",
-    "image-tag"             : ""
+    "image-tag"             : "",
+    "function-description"  : ""
 }
